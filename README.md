@@ -49,7 +49,7 @@ The agent is deliberately constrained: it can only read and write files, it only
 
 **A single successful CI run, with the `Build Docker image` step completing after the earlier pipeline steps:**
 
-![Build successful](screenshots/build-successful.png)
+![Build successful](screenshots/build successful.png)
 
 **A commit that intentionally broke CI (`exit 1` added to the workflow) — used to verify the pipeline surfaces failures before a follow-up commit fixes it:**
 
