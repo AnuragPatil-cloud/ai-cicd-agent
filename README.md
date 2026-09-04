@@ -45,7 +45,8 @@ The agent is deliberately constrained: it can only read and write files, it only
 
 **GitHub Actions run after the changes were committed — the Docker build step passes alongside the rest of the pipeline:**
 
-![GitHub Actions CI workflow run](screenshots/GitHub Actions CI workflow run.png)
+![GitHub Actions CI workflow run]<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/28d5cc38-e019-472a-9e7d-64181524b197" />
+
 
 **A single successful CI run, with the `Build Docker image` step completing after the earlier pipeline steps:**
 
