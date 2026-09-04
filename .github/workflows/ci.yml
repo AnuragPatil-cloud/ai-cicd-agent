@@ -19,3 +19,4 @@ jobs:
       run: |
         echo "CI workflow initialized."
         ls -la
+        exit 1
