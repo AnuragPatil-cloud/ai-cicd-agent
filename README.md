@@ -45,12 +45,13 @@ The agent is deliberately constrained: it can only read and write files, it only
 
 **GitHub Actions run after the changes were committed — the Docker build step passes alongside the rest of the pipeline:**
 
-![GitHub Actions CI workflow run]<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/28d5cc38-e019-472a-9e7d-64181524b197" />
+[GitHub Actions CI workflow run]<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/28d5cc38-e019-472a-9e7d-64181524b197" />
 
 
 **A single successful CI run, with the `Build Docker image` step completing after the earlier pipeline steps:**
 
-![Build successful](screenshots/build successful.png)
+[Build successful]<img width="1920" height="881" alt="image" src="https://github.com/user-attachments/assets/eeca8f46-92f7-42e6-b82c-fe4186f0421f" />
+
 
 **A commit that intentionally broke CI (`exit 1` added to the workflow) — used to verify the pipeline surfaces failures before a follow-up commit fixes it:**
 
