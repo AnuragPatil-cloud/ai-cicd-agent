@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+cicd_agent.py.backup
+cicd_agent.py.debug
+.env
