@@ -59,7 +59,8 @@ The agent is deliberately constrained: it can only read and write files, it only
 
 **Provisioning a server for the agent — installing Node.js, which the GitHub MCP server needs to run via `npx`:**
 
-![Installing Node.js on the host](screenshots/install-nodejs.png)
+[Installing Node.js on the host](screenshots/install-nodejs.png)<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/47a43346-b319-4754-9f74-6c2972bd9d69" />
+
 
 ## Prerequisites
 
